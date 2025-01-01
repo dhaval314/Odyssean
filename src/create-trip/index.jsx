@@ -97,7 +97,7 @@ function CreateTrip() {
         Fill in the details below to create a tailored and personalized trip plan.
       </p>
 
-      <div className="mt-16 flex flex-col gap-10">
+      <div data-aos="fade-up" data-aos-delay="300" className="mt-16 flex flex-col gap-10">
         <div>
           <h2 className="text-xl my-3 font-medium">Where are you from?</h2>
           <ReactGoogleAutocomplete
@@ -107,7 +107,7 @@ function CreateTrip() {
           />
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="600">
           <h2 className="text-xl my-3 font-medium">Where do you want to go?</h2>
           <ReactGoogleAutocomplete
             className="rounded-md border border-black w-full p-2"
@@ -116,7 +116,7 @@ function CreateTrip() {
           />
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="900">
           <h2 className="text-xl my-3 font-medium">How many days will you travel?</h2>
           <Input
             type="number"
@@ -129,7 +129,7 @@ function CreateTrip() {
         <div
           data-aos={!hasAnimated.budget ? 'fade-up' : ''}
           data-aos-once="true"
-          data-aos-delay="1200"
+          data-aos-delay=""
           onAnimationEnd={() =>
             setHasAnimated((prev) => ({ ...prev, budget: true }))
           }
@@ -158,7 +158,7 @@ function CreateTrip() {
         <div
           data-aos={!hasAnimated.traveler ? 'fade-up' : ''}
           data-aos-once="true"
-          data-aos-delay="1500"
+          data-aos-delay=""
           onAnimationEnd={() =>
             setHasAnimated((prev) => ({ ...prev, traveler: true }))
           }
