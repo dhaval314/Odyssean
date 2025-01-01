@@ -52,6 +52,6 @@ npm run dev
 ```
 Visit http://localhost:5173 to view the app.
 
-### Contributing
+## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit pull requests. Please make sure to follow the existing code style and write meaningful commit messages.
 
