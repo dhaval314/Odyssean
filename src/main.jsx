@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
-import HeroWithHeader from './components/custom/HeroWithHeader';
+import HeroWithHeader from './components/custom/HerowithHeader';
 import Header from './components/custom/Header';
 import CreateTrip from './create-trip';
 import { Toaster } from 'sonner';
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     path: '/',
     element: (
       <>
-        <HerowithHeader /> 
+        <HeroWithHeader /> 
         <App /> 
       </>
     ),
