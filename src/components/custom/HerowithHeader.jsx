@@ -27,7 +27,7 @@ const HeroWithHeader = () => {
             <img src="/logo.svg" alt="Logo" className="h-10" />
           </Link>
         
-          <Button >Sign In</Button>
+          {/* <Button >Sign In</Button> */}
         
       </div>
       </header>

@@ -39,21 +39,21 @@ export const travelersOptions = [
   export const budgetOptions = [
     { 
       id: "1", 
-      value: "cheap", 
+      value: "Cheap", 
       title: "Budget Friendly", 
       icon: "💵", 
       description: "Affordable options without compromising on quality." 
     },
     { 
       id: "2", 
-      value: "medium", 
+      value: "Medium", 
       title: "Medium", 
       icon: "💰", 
       description: "Balanced choices offering good value and comfort." 
     },
     { 
       id: "3", 
-      value: "high", 
+      value: "High", 
       title: "High", 
       icon: "🤑", 
       description: "Luxury experiences for those who want the best." 
